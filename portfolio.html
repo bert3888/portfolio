@@ -7,14 +7,14 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lusitana:400,700|Raleway:500,500i,600,700,800,900&display=swap" rel="stylesheet">
 
 
 
 </head>
 
 <body>
-    <header id="header">
+    <header id="myheader">
         <div>
             <a href="index.html">
                 <img src="billeder/signature.png" alt="logo signature" class="logo">
@@ -34,82 +34,151 @@
 
 
     <section id="portfolio">
+
+
         <div class="slider">
-            <section>
-                <img src="billeder/russisk_konstruktivisme.jpg" alt="russik ..">
-                <h1>Russisk Konstruktivisme</h1>
-                <div class="txt">
-                    <h2>Opgaven</h2>
-                    <p>I tema 02 fik vi tildelt en stilartsperiode med et karakterisk udtryk og blev bedt om at lave vores eget udtryk i udformningen af et responsivt site, med fokus på karaktertræk fra den givende periode.</p><br>
-                    <h2>Hvad har jeg lært</h2>
-                    <p>Jeg lærte om skrifttyper, farvelære og komposition som alt sammen er en vigtig brik til et fyldestgørende design og layout.
-                        For eksempel er farverne rød, sort og brungul en farvepalette som er konstant under hele mit site.<br>
-                        Jeg lærte at kode i HTML og at gøre ens site responsivt.<br>
-                        Jeg lærte at arbejde med layoutdiagram, som normalt bliver brugt, da det giver overblik og en fælles forståelse for kodestrukturen i projektet.
-                    </p>
+            <section id="konstruktivisme">
+                <a href="#app" class="slide right">&#10095;</a>
+                <div class="indhold">
+                    <div class="billede">
+                        <img src="billeder/russisk_konstruktivisme.jpg" alt="russisk Konstruktivisme splashbillede">
+                    </div>
+                    <h1>Konstruktivisme</h1>
+                    <hr>
+                    <div class="txt">
+                        <h2>Opgaven</h2>
+                        <p>I tema 02 fik vi tildelt en stilartsperiode med et karakterisk udtryk og blev bedt om at lave vores eget udtryk i udformningen af et responsivt site, med fokus på karaktertræk fra den givende periode.</p><br>
+                        <h2>Hvad har jeg lært</h2>
+                        <p>Jeg lærte om skrifttyper, farvelære og komposition som alt sammen er en vigtig brik til et fyldestgørende design og layout.
+                            For eksempel er farverne rød, sort og brungul en farvepalette som er konstant under hele mit site.<br>
+                            Jeg lærte at kode i HTML og at gøre ens site responsivt.<br>
+                            Jeg lærte at arbejde med layoutdiagram, som normalt bliver brugt, da det giver overblik og en fælles forståelse for kodestrukturen i projektet.
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <div class="button_01">
+                            <button>Dokumentation</button>
+                        </div>
+                        <div class="button_02">
+                            <a href="http://bebb.dk/kea/02_web/04_responsive/02_04_02_responsive_v2/index.html" target="_blank"><button>Se mere</button></a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="app">
+                <a href="#rick" class="slide right">&#10095;</a>
+                <a href="#konstruktivisme" class="slide left">&#10094;</a>
+                <div class="indhold">
+                    <div class="billede">
+                        <img src="billeder/kea_community.jpg" alt="kea community app">
+                    </div>
+                    <h1>KEA App</h1>
+                    <div class="txt">
+                        <h2>Opgaven</h2>
+                        <p>I tema 03 havde vi til opgave at lave en prototype app, der skulle forbedre det sociale samvær imellem studerende på KEA. Der skulle være særligt fokus på UX, som er med til at forbedre brugerens indtryk, hvis det bliver brugt korrekt. <br>
+                            En vigtig del af opgaven var at anvende den populære femfaseproces, Design Sprint. Udviklet af Jake Knapp.
+                        </p>
+                        <h2>Hvad har jeg lært</h2>
+                        <p>Jeg har tilegnet med en større forståelse for gruppedynamik og samarbejdet imellem dine medarbejdere/medstuderende. Derudover har jeg fået en forståelse for hvad Design Sprint indebære og dens styrker samt svagheder.<br>
+                            Design Sprint er utrolig tidsbegrænset, så der kræves meget af hinanden under hele processen og det var nok et af de problemer vi endte med at have til sidst i fasen. Vi havde simpelthen ikke nok tid og havde af den grund heller ikke prioriteret ordentligt.<br>
+                            Jeg lærte at benytte Adobe XD som et prototype program.
+                        </p>
+                    </div>
                 </div>
                 <div class="buttons">
-                    <button>Dokumentation</button>
-                    <button>Se mere</button>
+                    <div class="button_01">
+                        <button>Dokumentation</button>
+                    </div>
+                    <div class="button_02">
+                        <button>Se mere</button>
+                    </div>
+                </div>
+            </section>
+            <section id="rick">
+                <a href="#billeddeling" class="slide right">&#10095;</a>
+                <a href="#app" class="slide left">&#10094;</a>
+                <div class="indhold">
+                    <div class="billede">
+                        <img src="billeder/rick_morty.png" alt="rick and morty">
+                    </div>
+                    <h1>Rick and Morty</h1>
+                    <div class="txt">
+                        <h2>Opgaven</h2>
+                        <p>Tema 04 handlede i høj grad om at forstå brugen af CSS og Javascript. Vi skulle kode et spil med et fuldendt design, hvor karakterdesign, UI elementer og layout skulle passe sammen.<br>
+                            Javascript skulle bygges op udfra et aktivitetsdiagram og state machine diagram</p>
+                        <h2>Hvad har jeg lært</h2>
+                        <p>Jeg har fået en forståelse for hvordan ens stil kan udforme sig i karakterdesign og baggrundslayout. Specielt hvor vigtigt det er for det endelige resultat.<br>
+                            Jeg har eksempelvis i mit spil gjort brug af flatdesign med utraditionelle proportioner i forhold til den menneskelige krop. Øret sidder for eksempel nedenunder øjenhøjden og øjnene er ekstraordinærer store.
+                        </p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <div class="button_01">
+                        <button>Dokumentation</button>
+                    </div>
+                    <div class="button_02">
+                        <button>Se mere</button>
+                    </div>
                 </div>
             </section>
 
-            <section>
-                <img src="billeder/kea_community.jpg" alt="kea community app">
-                <h1>KEA Community App</h1>
-                <div class="txt">
-                    <h2>Opgaven</h2>
-                    <p>I tema 03 havde vi til opgave at lave en prototype app, der skulle forbedre det sociale samvær imellem studerende på KEA. Der skulle være særligt fokus på UX, som er med til at forbedre brugerens indtryk, hvis det bliver brugt korrekt. <br>
-                        En vigtig del af opgaven var at anvende den populære femfaseproces, Design Sprint. Udviklet af Jake Knapp.
-                    </p>
-                    <h2>Hvad har jeg lært</h2>
-                    <p>Jeg har tilegnet med en større forståelse for gruppedynamik og samarbejdet imellem dine medarbejdere/medstuderende. Derudover har jeg fået en forståelse for hvad Design Sprint indebære og dens styrker samt svagheder.<br>
-                        Design Sprint er utrolig tidsbegrænset, så der kræves meget af hinanden under hele processen og det var nok et af de problemer vi endte med at have til sidst i fasen. Vi havde simpelthen ikke nok tid og havde af den grund heller ikke prioriteret ordentligt.<br>
-                        Jeg lærte at benytte Adobe XD som et prototype program.
-                    </p>
+            <section id="billeddeling">
+                <a href="#keramik" class="slide right">&#10095;</a>
+                <a href="#rick" class="slide left">&#10094;</a>
+                <div class="indhold">
+                    <div class="billede">
+                        <img src="billeder/sex_samfund.png" alt="sex og samfund billede">
+                    </div>
+                    <h1>Billeddeling</h1>
+                    <div class="txt">
+                        <h2>Opgaven</h2>
+                        <p>I dette projekt fik vi til opgavem, at kode et spil, der skulle sætte intim billeddeling i fokus blandt unge mellem 10-13 årige. Vi skulle formidle et budskab om at hævnporno ikke er i orden.
+                        </p>
+                        <h2>Hvad har jeg lært</h2>
+                        <p>Vi finde en person i aldergruppen 10-13 år og afprøve vores hypotetiske ideer og tanker overfor interviewpersonen. Hertil lærte jeg, at ens spørgsmål i starten kun er til for, at løsne stemningen og få interviewpersonen til at føle sig godt tilpas. <br>
+                            Derudover vil der uden tvivl være forskel på dreng og pige, og det skal der også tages hensyn til. <br>
+                            Til sidst, så var det jo et kvalitativt interview. Vi kan altså ikke drage nogle generelle konklusioner. Der er kun tale om én persons holdning.
+                        </p>
+                    </div>
                 </div>
                 <div class="buttons">
-                    <button>Dokumentation</button>
-                    <button>Se mere</button>
+                    <div class="button_01">
+                        <button>Dokumentation</button>
+                    </div>
+                    <div class="button_02">
+                        <button>Se mere</button>
+                    </div>
                 </div>
             </section>
-            <section>
-                <img src="billeder/rick_morty.png" alt="rick and morty">
-                <h1>Rick and Morty - Save the Mortys</h1>
-                <div class="txt">
-                    <h2>Opgaven</h2>
-                    <p>Tema 04 handlede i høj grad om at forstå brugen af CSS og Javascript. Vi skulle kode et spil med et fuldendt design, hvor karakterdesign, UI elementer og layout skulle passe sammen.<br>
-                        Javascript skulle bygges op udfra et aktivitetsdiagram og state machine diagram</p>
-                    <h2>Hvad har jeg lært</h2>
-                    <p>Jeg har fået en forståelse for hvordan ens stil kan udforme sig i karakterdesign og baggrundslayout. Specielt hvor vigtigt det er for det endelige resultat.<br>
-                        Jeg har eksempelvis i mit spil gjort brug af flatdesign med utraditionelle proportioner i forhold til den menneskelige krop. Øret sidder for eksempel nedenunder øjenhøjden og øjnene er ekstraordinærer store.
-                    </p>
+            <section id="keramik">
+                <a href="#billeddeling" class="slide left">&#10094;</a>
+                <div class="indhold">
+                    <div class="billede">
+                        <img src="billeder/christian_bruun.png" alt="christian bruun billede"></div>
+                    <h1>Bruun Keramik</h1>
+                    <div class="txt">
+                        <h2>Opgaven</h2>
+                        <p>I tema 05 fik vi til opgave at tage kontakt til et firma som til dels solgte en ydelse eller et produkt. Det var vigtigt at personens hjemmeside og visuelle udtryk ikke var perfekt, så vi som profesionelle multimediedesigner kunne arbejde frem til et bedre produkt. Vi skulle producere en kort video samt en kodet hjemmeside med en ny struktur.
+                        </p>
+                        <h2>Hvad har jeg lært</h2>
+                        <p>Et at de helt store læringer jeg tilegnede mig under dette tema, var produceringen af en promoveringsvideo. At bruge et storyboard når man stod på location og det gjaldt om at få skudt alt materiale i hus. Samtidig med det fik jeg et kendskab til kundekontakt og lærte om hvordan man forholdte sig professionelt.
+                        </p>
+                    </div>
                 </div>
                 <div class="buttons">
-                    <button>Dokumentation</button>
-                    <button>Se mere</button>
+                    <div class="button_01">
+                        <button>Dokumentation</button>
+                    </div>
+                    <div class="button_02">
+                        <button>Se mere</button>
+                    </div>
                 </div>
-            </section>
-
-            <section>
-                <img src="billeder/sex_samfund.jpg" alt="sex og samfund billede">
-                <h1>Case: Sex og Samfund</h1>
-                <div class="txt">
-                    <h2>Opgaven</h2>
-                    <p>I dette projekt fik vi til opgavem, at kode et spil, der skulle sætte intim billeddeling i fokus blandt unge mellem 10-13 årige. Vi skulle formidle et budskab om at hævnporno ikke er i orden.
-                    </p>
-                    <h2>Hvad har jeg lært</h2>
-                    <p>Til dette projekt skulle vi finde en person i aldergruppen 10-13 år og afprøve vores hypotetiske ideer og tanker overfor interviewpersonen. Hertil lærte jeg, at ens spørgsmål i starten kun er til for, at løsne stemningen og få interviewpersonen til at føle sig godt tilpas. <br>
-                        Derudover vil der uden tvivl være forskel på dreng og pige, og det skal der også tages hensyn til. <br>
-                        Til sidst, så var det jo et kvalitativt interview. Vi kan altså ikke drage nogle generelle konklusioner. Der er kun tale om én persons holdning.
-                    </p>
-                </div>
-            </section>
-            <section>
-                <h1>Section Five</h1>
             </section>
         </div>
     </section>
+
 
 
 

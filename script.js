@@ -1,6 +1,10 @@
 window.addEventListener("load", sidenVises);
 
 
+var header = document.getElementById("myheader");
+
+
+
 function sidenVises() {
     console.log("siden vises");
     document.querySelector("#menuknap_container").addEventListener("click", clickMenu);
@@ -26,14 +30,3 @@ function myFunction(x) {
     } //else {
     // document.body.style.backgroundColor = "pink";}
 }
-
-const init = function () {
-    let items = document.querySelectorAll('section');
-    for (let i = 0; i < items.length; i++) {
-        items[i].style.background = randomColor({
-            luminosity: 'light'
-        });
-    }
-    cssScrollSnapPolyfill()
-}
-init();
